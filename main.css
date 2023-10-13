@@ -1,0 +1,31 @@
+.carousel {
+    max-width: 100%; 
+}
+
+.carousel-item {
+    max-height: 720px;
+}
+
+.carousel img {
+    max-width: 100%; 
+}
+
+.carousel-indicators {
+    list-style: none;
+}
+
+#card-item {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    .carousel-item {
+        height: 390px; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item {
+        height: 290px; 
+    }
+}
